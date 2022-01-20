@@ -1,0 +1,22 @@
+{
+    "name": "tonykssa/tpp-sdk",
+    "description": "TropiPay PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["REST","TropiPay"],
+	"homepage": "https://tpp.stoplight.io/",
+    "autoload": {
+        "psr-4": {
+            "TppSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio Membrides Espinosa",
+            "email": "tonykssa@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.3.0"
+	}
+}
